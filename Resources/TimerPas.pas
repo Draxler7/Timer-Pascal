@@ -17,6 +17,6 @@ begin
 	end;
     writeln('start!');
 	Process1:=TProcess.Create(nil);	
-	Process1.CommandLine:='aplay sound.wav';
+	Process1.CommandLine:='aplay ./Resources/sound.wav';
 	Process1.Execute
 end.
